@@ -1,7 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Hi there
 date: 2024-08-14
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Welcome to my notes for the entrance exams of Creative Informatics master course, IST, UTokyo and Data Science master course, GSI, KyotoU. This project is inspired by [Zephyr's Notes on ISCS & CBMS, UTokyo](https://inshi-notes.zephyr-zdz.space/). 
