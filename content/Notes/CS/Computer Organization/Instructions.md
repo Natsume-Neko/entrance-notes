@@ -1,0 +1,2 @@
+### Instruction Set
+An instruction set is a collection of commands that a processor can excute. It defines the operations like arithmetic, logic, data movement and control functions that a CPU can perform. Each type of CPU has its own instruction set architecture, such as x86 and ARM, which indicates how the softwares communicate with the specific hardware.

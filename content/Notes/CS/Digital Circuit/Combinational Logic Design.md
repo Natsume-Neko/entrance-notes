@@ -11,7 +11,7 @@ A circuit is combinational if:
 - Perfect Induction: Show the equation holds through the truth table
 ### Schematics
 Guidelines to design the schematics
-![[Pasted image 20240912134201.png]]
+![[SchematicsGuideline.png]]
 ## Multilevel Combinational Logic
 - Bubble Pushing
 ## X and Z
