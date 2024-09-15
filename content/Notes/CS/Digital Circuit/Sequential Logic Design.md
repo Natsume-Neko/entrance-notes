@@ -41,3 +41,10 @@ When RESET=0, it works like an ordinary D flip-flop. When RESET=1, it resets Q t
 ### State Encoding
 - Binary encoding
 - One-hot encoding
+### Guideline of Designing a FSM
+1. Identify inputs and outputs
+2. Sketch state transition diagram
+3. Write state transition table and output table(Different in Moore and Mealy Machines)
+4. Select state encodings
+5. Write boolean equations
+6. Sketch the schematic
