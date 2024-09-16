@@ -1,0 +1,3 @@
+## Pipelining
+### Definition
+Pipelining is a technique that makes tasks in multiple stages work simultanously, much like in an assembly line. Pipelining can improve CPU performance, making it run more efficiently and increasing the throughput. However, pipelining can introduce hazards such as data, control, and structural hazards, which can stall the pipeline. Techniques like forwarding, branch prediction, and pipeline interlocks are used to minimize these hazards and maintain high performance.
