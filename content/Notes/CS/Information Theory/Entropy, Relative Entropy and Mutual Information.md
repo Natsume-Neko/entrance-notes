@@ -16,7 +16,7 @@ H(x, y) = -\Sigma _{x \in X} \Sigma _{y \in Y} \ p(x,y)log\ p(x, y)
 $$
 Expected value form:
 $$
-H(x, y) = -E\ log\ p(x, y)
+H(x, y) = -E\ log\ p(X, Y)
 $$
 ### Conditional Entropy
 #### Definition
