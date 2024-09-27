@@ -79,10 +79,16 @@ I(X_1,X_2,...,X_n;Y) = \Sigma _{i=1}^{n}I(X_i;Y|X_1,X_2,...,X_{i-1})
 $$
 ### Chain Rule for Relative Entropy
 #### Conditional Relative Entropy
-!todo
+$$
+\begin{aligned}
+D(p(y|x)||q(y|x)) &= \Sigma _{x}p(x) \Sigma _{y}p(y|x)\ log\ \frac{p(y|x)}{q(y|x)} \\
+&= E_{p(x,y)}log \frac{p(Y|X)}{q(Y|X)}
+\end{aligned}
+$$
 #### Chain Rule for Relative Entropy
-!todo
-
+$$
+D(p(x,y)||q(x,y)) = D(p(x)||q(x)) + D(p(y|x)||q(y|x))
+$$
 ## Jensen's Inequality
 ### Jensen's Inequality
 When $f(x)$ is a convex funtion:
@@ -103,3 +109,17 @@ $$
 ### Applications
 - Convexity of relative entropy
 - Concavity of entropy
+- The mutual information $I(X;Y)$ is a concave function of $p(x)$ for fixed $p(y|x)$ and a convex function of $p(y|x)$ for fixed $p(x)$.
+## Data Processing Inequality
+### Markov Chain
+Random variables $X$, $Y$, $Z$ are said to form a Markov chain in that order (denoted by $X → Y → Z$) if the conditional distribution of $Z$ depends only on $Y$ and is conditionally independent of $X$. Specifically, $X$, $Y$, and $Z$ form a Markov chain $X → Y → Z$ if the joint probability mass function can be written as:
+$$
+p(x, y, z) = p(x)p(y|x)p(z|y)
+$$
+### Data Processing Inequality
+If $X \rightarrow Y \rightarrow Z$, then $I(X;Y) \ge I(X;Z)$.
+## Fano's Inequality
+For any estimator $\hat{X}$ such that $X → Y → \hat{X}$, with $P_e = Pr(X \ne \hat{X})$, we have:
+$$
+H(P_e)+P_elog|X| \ge H(X|\hat{X}) \ge H(X|Y)
+$$
