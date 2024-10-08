@@ -19,7 +19,7 @@
 - $C_i = G_{i:j} + P_{i:j}C_{j}$
 - Much faster
 ### Subtractor
-- $A + B = A + \bar{B} + 1$
+- $A - B = A + \bar{B} + 1$
 - Use an invertor
 ### Comparator
 - Equality comparator: check every bits
