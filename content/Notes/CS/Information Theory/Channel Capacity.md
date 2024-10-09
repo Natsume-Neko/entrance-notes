@@ -73,9 +73,8 @@ $$
 - Information Bits: $X(x)$
 - $X(x)x^m = A(x)G(x) + C(x)$
 - $W(x) = X(x)x^m + C(x)$
-- Code Length: $n = 2^m - 1$
-- Information Length: $k = 2^m - 1 - m$
-- Check Bits: $m$
+- Generator Matrix 生成行列
+- Check Matrix 検査行列
 #### Circuits
-- Decoder 符号器
+- 符号器
 - Divider 除算器
